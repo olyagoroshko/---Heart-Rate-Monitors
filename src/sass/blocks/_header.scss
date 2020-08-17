@@ -34,3 +34,22 @@
         align-items: flex-end;
     }
 }
+
+@media(max-width: 767px){
+    .header__official{
+        display: none;
+    }
+}
+
+@media(max-width: 575px){
+    .header{
+        flex-direction: column;
+        &__contacts {
+            align-items: center;
+            margin-top: 10px;
+        }
+        &__phone{
+            font-size: 12px;
+        }
+    }
+}

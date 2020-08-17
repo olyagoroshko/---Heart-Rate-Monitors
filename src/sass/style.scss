@@ -1,26 +1,7 @@
 // Base
 @import 'base/variables';
 @import 'base/mixins';
-
-
-*{
-    font-family: 'Museo Sans Cyrl', sans-serif;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.container{
-    max-width: 950px;
-    margin: 0 auto;
-}
-
-.title{
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    color: #0d0d0d;
-    text-transform: uppercase;
-}
+@import 'base/main';
 
 //Blocks
 @import 'blocks/promo';
