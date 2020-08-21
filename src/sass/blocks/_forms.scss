@@ -17,6 +17,9 @@
             margin-bottom: 20px;
         }
     }
+    &_mt25{
+        margin-top: 25px;
+    }
 }
 
 @media(max-width:767px){
@@ -34,5 +37,8 @@
             height: 40px;
             font-size: 12px;
         }
+    }
+    .feed-form_mt25{
+        width: 210px;
     }
 }
